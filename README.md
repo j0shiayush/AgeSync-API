@@ -1,6 +1,9 @@
 # AgeSync API
 
-![Hero Image Placeholder](https://via.placeholder.com/1000x300.png?text=Replace+with+a+screenshot+of+your+running+terminal+or+API+response)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/09a76ade-199c-4b79-8525-624d0959d340" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/894ff46a-d781-4c5c-b013-e94d9d367866" />
+
 
 A production-ready RESTful API built in Go for managing users, featuring dynamic age calculation, structured logging, request tracing, and full containerisation. Designed with clean architecture principles to ensure maintainability and high performance.
 
@@ -119,7 +122,7 @@ go test -race ./...
 
 ## API Reference & PowerShell Testing
 
-![API Testing Placeholder](https://via.placeholder.com/800x300.png?text=Replace+with+a+screenshot+of+successful+PowerShell+API+responses)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/40d5fcd5-a692-46d3-be91-69f28b900028" />
 
 The following examples use native Windows PowerShell (`Invoke-RestMethod`) for seamless JSON payload handling.
 
