@@ -31,6 +31,7 @@ flowchart TD
     classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px;
     classDef db fill:#e1f5fe,stroke:#0288d1,stroke-width:2px;
     class DB db;
+```
 
 ### Layer Responsibilities
 
