@@ -21,7 +21,16 @@ A production-ready RESTful API built in Go for managing users, featuring dynamic
 
 ## Architecture & Design Choices
 
-![Architecture Diagram Placeholder](https://via.placeholder.com/800x400.png?text=Replace+with+a+simple+system+architecture+or+folder+structure+diagram)
+```mermaid
+flowchart TD
+    Client["💻 Client<br>(PowerShell / cURL)"] -->|JSON Payload| Handler["🌐 HTTP Handler<br>(GoFiber)"]
+    Handler -->|Domain DTO| Service["⚙️ Service Layer<br>(Dynamic Age Calc)"]
+    Service -->|Domain Models| Repo["🗄️ Repository<br>(SQLC)"]
+    Repo -->|SQL Queries| DB[/"🐘 PostgreSQL Database"\]
+    
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px;
+    classDef db fill:#e1f5fe,stroke:#0288d1,stroke-width:2px;
+    class DB db;
 
 ### Layer Responsibilities
 
