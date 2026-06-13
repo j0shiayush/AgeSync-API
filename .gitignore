@@ -1,0 +1,22 @@
+# Binaries
+/server
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+
+# Environment variables
+.env
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Editor and IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
